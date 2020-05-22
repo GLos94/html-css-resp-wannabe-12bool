@@ -21,7 +21,6 @@
   clear: both;
 }
 
-
 /* vesione smartphone */
 @media all and (max-width:768px) {
 
@@ -104,7 +103,7 @@
   .col-xs-offset-12 {
     margin-left: calc((100% / 12) * 12);
   }
-
+}
 
   /* vesione tablet */
 @media all and (min-width:769px) and (max-width:992px) {
@@ -188,10 +187,10 @@
   .col-md-offset-12 {
     margin-left: calc((100% / 12) * 12);
   }
-
+}
 
   /* vesione desktop */
-  @media all and (min-width:993px) {
+  @media screen and (min-width:993px) {
 
     .clear-lg {
       display: block;
@@ -272,3 +271,4 @@
     .col-lg-offset-12 {
       margin-left: calc((100% / 12) * 12);
     }
+}
