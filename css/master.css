@@ -10,7 +10,9 @@
   margin-bottom: 8%
 }
 
-/* regole display lg */
+
+
+/* regole generali */
 
 img{
   height: 200px
@@ -31,6 +33,42 @@ h3{
   padding: 2% 0;
 }
 
-/* regole display md */
+.container{
+  background-color: #f9f9f9;
+}
+
+.row:first-child{
+  background-color: white;
+}
+
+hr{
+  margin: 2% 7%;
+}
+
+
 
 /* regole display xs */
+
+[class*="col-xs"] > p{
+  padding: 0 7%;
+  font-size: 20px;
+}
+
+[class*="col-xs"] > h3{
+  font-size: 25px;
+}
+
+[class*="col-xs"] img{
+  margin: 2% 0;
+}
+
+
+/* regole display md */
+
+[class*="col-md"] > p{
+  font-size: 18px;
+}
+
+[class*="col-md"] > h3{
+  font-size: 22px;
+}
