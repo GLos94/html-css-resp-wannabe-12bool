@@ -45,30 +45,25 @@ hr{
   margin: 2% 7%;
 }
 
+p{
+  margin: 0 5%;
+}
+
 
 
 /* regole display xs */
+@media all and (max-width:768px){
 
-[class*="col-xs"] > p{
-  padding: 0 7%;
-  font-size: 20px;
-}
+  p{
+    font-size: 20px;
+    margin: 5%;
+  }
 
-[class*="col-xs"] > h3{
-  font-size: 25px;
-}
+  h3{
+    font-size: 25px;
+  }
 
-[class*="col-xs"] img{
-  margin: 2% 0;
-}
-
-
-/* regole display md */
-
-[class*="col-md"] > p{
-  font-size: 18px;
-}
-
-[class*="col-md"] > h3{
-  font-size: 22px;
+  img{
+    margin: 2% 0;
+  }
 }
